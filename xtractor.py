@@ -1,5 +1,14 @@
-# XTRACTOR - Universal HTML/JS/CSS/Logic Vulnerability Term Scanner
-# Author: Max | License: MIT
+print("""#  ██   ██ ████████ ██████   █████   ██████ ████████  ██████  ██████  
+#   ██ ██     ██    ██   ██ ██   ██ ██         ██    ██    ██ ██   ██ 
+#    ███      ██    ██████  ███████ ██         ██    ██    ██ ██████  
+#   ██ ██     ██    ██   ██ ██   ██ ██         ██    ██    ██ ██   ██ 
+#  ██   ██    ██    ██   ██ ██   ██  ██████    ██     ██████  ██   ██ 
+                                                                  
+         XTRACTOR - Universal HTML/JS/CSS/Logic Vulnerability Term Scanner
+                     Author: ABXAR | License: MIT
+                          === FOLLOW ME ON ===
+                    X : https://x.com/ABXAR_7x30
+""")
 
 import argparse
 import requests
