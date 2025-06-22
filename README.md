@@ -27,10 +27,11 @@ python3 xtractor.py -html -js -css -a -U urls.txt -o report.txt
 ```
 ## Options:
 
--u : Scan single domain
-
--U : Scan from file
-
--html, -js, -css, -a : Enable different VULN_MAPs
-
--o : Output results to a file
+-h, --help  show this help message and exit
+-html       Scan HTML terms
+-js         Scan JavaScript terms
+-css        Scan CSS terms
+-a          Scan all additional languages and logic maps
+-u U        Single URL to scan
+-U U        File containing list of URLs
+-o O        Output file to save results
