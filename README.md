@@ -19,7 +19,10 @@ XTRACTOR is a fast, pluggable, and vulnerability-focused scanner built to extrac
 
 ---
 ## Usage
-
+- git clone https://github.com/AB-X-AR/XTRACTOR.git
+- cd XTRACTOR
+- pip -r install requirements.txt
+- chmod +x xtractor.py
 ```python
 python3 xtractor.py -html -js -css -a -U urls.txt -o report.txt
 ```
@@ -33,3 +36,14 @@ python3 xtractor.py -html -js -css -a -U urls.txt -o report.txt
 - -u U        Single URL to scan
 - -U U        File containing list of URLs
 - -o O        Output file to save results
+- -f          Scan raw HTML files offline
+- --json      Save results as structured JSON
+- --html      Export a styled HTML report
+---
+## Use `-u` for single url or use `-U` for a list of urls 
+![image](https://github.com/user-attachments/assets/a4d0ff83-d94c-436b-8361-0eb0c4ed988a)
+
+## Use `-f` for Offline usage
+![image](https://github.com/user-attachments/assets/ea3a9dd1-ea0a-4e9d-82b3-25ba92bbfe0e)
+
+
