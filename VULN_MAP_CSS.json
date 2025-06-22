@@ -1,0 +1,23 @@
+{
+  "position: fixed": "Overlay attacks, fake UI overlays",
+  "z-index": "Clickjacking layers, phishing overlays",
+  "pointer-events: none": "Invisible click layers",
+  "display: none": "Hidden elements for trap links or exfil",
+  "visibility: hidden": "Similar to display:none, can hide malicious components",
+  "overflow: hidden": "Prevent user from noticing scrollable fake sections",
+  "@import": "CSS inclusion from remote domains (CSS injection risk)",
+  "url(": "External resource loading, potential exfiltration",
+  ":hover": "Trigger-based deception or trick clicks",
+  "::before": "CSS content injection",
+  "::after": "CSS content injection",
+  "@keyframes": "Advanced animation-based phishing",
+  "animation-delay": "Delay malicious visual cues",
+  "filter: blur": "Masking or obscuring phishing elements",
+  "opacity: 0": "Invisible malicious elements",
+  "mix-blend-mode": "Visual distortion, phishing visuals",
+  "transform: scale": "Magnification or trick visuals",
+  "backdrop-filter": "Glassmorphism UI overlay for phishing",
+  "user-select: none": "Disable copying of warnings or text",
+  "cursor: pointer": "Deception in clickable areas",
+  "font-family: 'emoji'": "Using emoji fonts for deception"
+}

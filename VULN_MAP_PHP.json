@@ -1,0 +1,20 @@
+{
+  "include": "File inclusion (LFI, RFI)",
+  "require": "File inclusion (LFI, RFI)",
+  "eval": "Remote code execution",
+  "system": "Command injection",
+  "exec": "Command injection",
+  "shell_exec": "Command injection",
+  "passthru": "Command injection",
+  "popen": "Command injection",
+  "proc_open": "Command injection",
+  "base64_decode": "Obfuscation and payload hiding",
+  "unserialize": "PHP Object Injection",
+  "$_GET": "User-controlled input, injection point",
+  "$_POST": "User-controlled input, injection point",
+  "$_COOKIE": "Client-controlled input, tampering",
+  "$_SERVER": "Header-based injection, server variable abuse",
+  "move_uploaded_file": "Unrestricted file upload",
+  "is_uploaded_file": "Used to verify uploads (can be bypassed)",
+  "header": "HTTP Response Splitting, redirect manipulation"
+}

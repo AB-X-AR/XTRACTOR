@@ -1,0 +1,19 @@
+{
+  "SELECT": "SQL Injection",
+  "INSERT": "SQL Injection",
+  "UPDATE": "SQL Injection",
+  "DELETE": "SQL Injection",
+  "DROP": "Destructive SQL Injection",
+  "UNION": "Union-based SQL Injection",
+  "WHERE": "SQL Injection control point",
+  "OR 1=1": "Authentication bypass",
+  "--": "SQL comment injection",
+  "' OR": "Authentication bypass",
+  "\" OR": "SQL Injection",
+  "xp_cmdshell": "Command execution via SQL Server",
+  "LOAD_FILE": "Read local files (MySQL)",
+  "INFORMATION_SCHEMA": "Database enumeration",
+  "mysql": "MySQL-specific query target",
+  "pg_sleep": "Time-based blind SQLi (PostgreSQL)",
+  "SLEEP": "Time-based SQL Injection"
+}

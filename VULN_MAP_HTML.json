@@ -1,0 +1,15 @@
+{
+  "iframe": "Possible Vulnerability (Clickjacking)",
+  "form": "CSRF, Formjacking, Credential Harvesting",
+  "script": "XSS, DOM-Based XSS",
+  "onerror": "XSS via onerror",
+  "onclick": "XSS via onclick",
+  "action": "Open Redirects, Credential Sniffing",
+  "object": "Clickjacking, Flash Exploits",
+  "embed": "Flash Embeds, Phishing UI",
+  "meta": "Open Redirects, Charset-Based XSS",
+  "input": "DOM XSS, Credential Harvesting",
+  "textarea": "Stored XSS",
+  "link": "CSS-based Clickjacking or Data Exfiltration",
+  "target=\"_blank\"": "Tabnabbing (use rel=\"noopener\")"
+}
