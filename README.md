@@ -9,8 +9,6 @@ XTRACTOR is a fast, pluggable, and vulnerability-focused scanner built to extrac
 ## **Key Capabilities**
 - 🔍 Scans single or multiple domains
 
-- 📦 Modular VULN_MAP system (HTML, JS, CSS, PHP, SQL)
-
 - 🧠 Links each found term to its possible vulnerability type
 
 - 🛡 Detects missing headers like Content-Security-Policy and X-Frame-Options
