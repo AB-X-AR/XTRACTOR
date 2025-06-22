@@ -33,3 +33,4 @@ python3 xtractor.py -html -js -css -a -U urls.txt -o report.txt
 - -u U        Single URL to scan
 - -U U        File containing list of URLs
 - -o O        Output file to save results
+![usage_ref](https://github.com/user-attachments/assets/f37dfdd8-24c9-4657-9b5d-cb2ea1ef31fb)
