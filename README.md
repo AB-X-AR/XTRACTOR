@@ -1,5 +1,5 @@
 # **XTRACTOR**
-XTRACTOR is a fast, pluggable, and vulnerability-focused scanner built to extract exploitable HTML, JS, and CSS terms across web domains. Designed for bug bounty recon, red teaming, and offensive security automation.
+XTRACTOR is a fast, pluggable, Client-Side vulnerability pattern analyzer and scanner built to extract exploitable HTML, JS, and CSS terms across web domains. Designed for bug bounty recon, red teaming, and offensive security automation.
 
 ## **Why XTRACTOR?**
 - Web applications expose clues through their markup — things like <script>, onerror, or target="_blank" can signal real risks.
